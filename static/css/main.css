@@ -1,0 +1,29 @@
+body {
+  background-color: #FFFAD5;
+}
+
+#mainContainer {
+  background-color: white;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 3px;
+}
+
+#butterBarContainer {
+  display: none;
+}
+
+#butterBarContent {
+  border-radius: 0px 0px 5px 5px;
+  boder-top: none;
+}
+
+.infoBar {
+  background-color: #98FEC6;
+  border: 1px solid #24A25B;
+}
+
+.errorBar {
+  background-color: #FFB09B;
+  border: 1px solid #CE5B3C;
+}
+

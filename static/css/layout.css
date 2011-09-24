@@ -1,0 +1,32 @@
+body { 
+  text-align: center;
+  margin: 0;
+}
+
+#debugMenu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+}
+
+#mainContainer {
+  width: 900px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#butterBarContainer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#butterBarContent {
+  width: 900px;
+  display: inline-block;
+}

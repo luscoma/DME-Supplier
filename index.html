@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/static/script/underscore.js" type="text/javascript"></script>
+    <script src="/static/script/support.js" type="text/javascript"></script>
+    <script type="text/javascript" defer>
+    </script>
+
+    <link rel="stylesheet" href="/static/css/layout.css"/>
+    <link rel="stylesheet" href="/static/css/main.css"/>
+  </head>
+  <body>
+    <ul id="debugMenu">
+      <li><button onclick="support.butterBar.showInfo('hi there');">Show Info</button></li>
+      <li><button onclick="support.butterBar.showError('hi there');">Show Error</button></li>
+    </ul>
+
+    <div id="butterBarContainer">
+      <div id="butterBarContent">
+        Message
+      </div>
+    </div>
+    <div id="mainContainer">
+      hi
+    </div>
+  </body>
+</html>
